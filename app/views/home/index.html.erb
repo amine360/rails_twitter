@@ -1,0 +1,8 @@
+<h1>Envoie ton tweet</h1>
+<%= form_tag do %>
+ 
+  <%= label_tag 'Contenu', 'Ton Tweet' %>
+  <%= text_area_tag 'Contenu' %>
+ 
+  <%= submit_tag "Envoyer"%>
+<% end %>
